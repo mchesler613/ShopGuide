@@ -65,7 +65,7 @@ class SearchBar extends React.Component {
         </div>
         <div className="SearchBar-fields">
           <input onChange={this.handleTermChange} placeholder="Search Businesses" />
-          <input onChange={this.handleLocationChange} placeholder="Where?" />
+          <input onChange={this.handleLocationChange} placeholder="Where? e.g. Brooklyn, NY" />
         </div>
         <div onClick={this.handleSearch} className="SearchBar-submit">
           <a>Let's Go</a>
